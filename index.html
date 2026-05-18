@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Shrinath Khot | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- GOOGLE FONTS -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+</head>
+
+<body>
+
+  <!-- LOADER -->
+
+  <div id="loader">
+    <h1>Loading Portfolio...</h1>
+  </div>
+
+  <!-- CURSOR -->
+
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- NAVBAR -->
+
+  <header>
+
+    <nav class="navbar">
+
+      <div class="logo">
+        Shrinath Khot | DADS
+      </div>
+
+      <ul class="nav-links">
+
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+
+      <button id="theme-toggle">
+        <i class="fa-regular fa-moon"></i>
+      </button>
+
+    </nav>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="hero" id="hero">
+
+    <div class="gradient gradient1"></div>
+    <div class="gradient gradient2"></div>
+
+    <div class="hero-content">
+
+      <img src="about_img.png" alt="profile" class="profile-img">
+
+      <h1>
+        Hi, I'm <span>Shrinath</span>
+      </h1>
+
+      <h2 id="typing"></h2>
+
+      <p class="hero-text">
+        Turning raw data into meaningful insights,
+        interactive dashboards, and AI-powered solutions.
+      </p>
+
+      <p class="mini-text">
+       Machine Learning • Python • SQL • Power BI 
+
+      <div class="hero-buttons">
+
+        <a href="#projects" class="btn primary">
+          View Projects
+        </a>
+
+        <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn secondary">
+          Download Resume
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- STATS -->
+
+  <section class="stats">
+
+    <div class="stat-card">
+      <h1>5+</h1>
+      <p>Projects</p>
+    </div>
+
+    <div class="stat-card">
+      <h1>90%</h1>
+      <p>AI Accuracy</p>
+    </div>
+
+    <div class="stat-card">
+      <h1>36900+</h1>
+      <p>Records Analyzed</p>
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+
+  <section class="about" id="about">
+
+    <div class="section-header">
+      <h2>About Me</h2>
+    </div>
+
+    <div class="about-grid">
+
+      <div class="about-card large">
+
+        <h3>Who Am I?</h3>
+
+        <p>
+          Computer Engineering student with practical experience in
+          Machine Learning, Computer Vision, SQL, Power BI and AI solutions.
+        </p>
+
+      </div>
+
+      <div class="about-card">
+
+        <h3>Currently Learning</h3>
+
+        <ul>
+          <li>Machine Learning</li>
+          <li>Advanced SQL</li>
+          <li>GenAI</li>
+        </ul>
+
+      </div>
+
+      <div class="about-card">
+
+        <h3>Education</h3>
+
+        <p>
+          B.Tech Computer Engineering
+          <br>
+          DY Patil University Pune
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+
+  <section class="skills" id="skills">
+
+    <div class="section-header">
+      <h2>Skills</h2>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <i class="fa-solid fa-database"></i>
+        <h3>SQL</h3>
+        <p>KPI Analysis • Queries • Joins</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-brands fa-python"></i>
+        <h3>Python</h3>
+        <p>Pandas • APIs • Data Cleaning</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-solid fa-chart-line"></i>
+        <h3>Power BI</h3>
+        <p>DAX • ETL • Dashboards</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-solid fa-brain"></i>
+        <h3>Machine Learning</h3>
+        <p>TensorFlow • Scikit Learn</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+
+  <section class="projects" id="projects">
+
+    <div class="section-header">
+      <h2>Featured Projects</h2>
+      <p>AI • Analytics • Dashboard Projects</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- CARD -->
+  <a
+    href="https://github.com/Shrinathkhot/GestureTalk_AI"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="project-link"
+  >
+
+    <div class="project-card">
+
+      <img src="gesturetalk.png" alt="">
+
+    <div class="project-content">
+
+        <div class="tags">
+          <span>TensorFlow</span>
+          <span>OpenCV</span>
+        </div>
+
+      <h3>GestureTalk-AI</h3>
+
+      <p>
+        Sign Language Recognition System using
+        CNN and Computer Vision.
+      </p>
+
+    </div>
+
+  </div>
+
+</a>
+
+      <!-- CARD -->
+    <a
+    href="https://github.com/Shrinathkhot/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="project-link"
+    >
+
+      <div class="project-card">
+
+        <img src="churn.png" alt="">
+
+        <div class="project-content">
+
+          <div class="tags">
+            <span>Python</span>
+            <span>SQL</span>
+          </div>
+
+          <h3>Customer Churn Prediction</h3>
+
+          <p>
+            Machine Learning project identifying
+            telecom customer churn patterns.
+          </p>
+
+        </div>
+
+      </div>
+      </a>
+      <!-- CARD -->
+      <a
+      href="https://github.com/Shrinathkhot/Customer-Behavior-Analytics"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="project-link"
+      >
+
+      <div class="project-card">
+
+        <img src="behavior.png" alt="">
+
+        <div class="project-content">
+
+          <div class="tags">
+            <span>Power BI</span>
+            <span>Dashboard</span>
+          </div>
+
+          <h3>Customer Behavior Dashboard</h3>
+
+          <p>
+            Analytics dashboard for customer trends
+            and KPI insights.
+          </p>
+
+        </div>
+
+      </div>
+      </a>
+      <!-- CARD -->
+    <a
+  href="https://github.com/Shrinathkhot/Blinkit-Sales-Performance-Analytics"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="project-link"
+>
+
+  <div class="project-card">
+
+    <img src="blinkit.png" alt="">
+
+    <div class="project-content">
+
+      <div class="tags">
+        <span>Power BI</span>
+        <span>SQL</span>
+        <span>Analytics</span>
+      </div>
+
+      <h3>Blinkit Sales Analytics</h3>
+
+      <p>
+        Sales performance dashboard, revenue trends, and business insights.
+      </p>
+
+    </div>
+
+  </div>
+
+</a>
+      <!-- CARD -->
+    <a
+    href="https://github.com/Shrinathkhot/Weather-Dashboard-Project"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="project-link"
+    >
+      <div class="project-card">
+
+        <img src="weather.png" alt="">
+
+        <div class="project-content">
+
+          <div class="tags">
+            <span>API</span>
+            <span>Python</span>
+          </div>
+
+          <h3>Weather & AQI Dashboard</h3>
+
+          <p>
+            Real-time weather analytics dashboard
+            powered using APIs.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+    </a>
+  </section>
+
+
+  <!-- OPEN TO WORK -->
+
+  <section class="work-status">
+
+    <div class="work-box">
+
+      <h2>Open To Work</h2>
+
+      <p>
+        Looking for opportunities in:
+      </p>
+
+      <div class="work-tags">
+
+        <span>Data Analyst</span>
+        <span>Business Analyst</span>
+        <span>Power BI Developer</span>
+        <span>ML Intern</span>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- contact -->
+
+  <!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+  <div class="section-header">
+
+    <h2>Let's Connect</h2>
+
+    <p>
+      Open for collaborations, internships,
+      freelance projects, and opportunities.
+    </p>
+
+  </div>
+
+  <div class="contact-container">
+
+    <!-- EMAIL -->
+
+    <a
+      href="mailto:shrinathkhot@gmail.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="contact-card"
+    >
+
+      <i class="fas fa-envelope"></i>
+
+      <div>
+
+        <h3>Email</h3>
+
+        <p>
+          shrinathkhot@gmail.com
+        </p>
+
+      </div>
+
+    </a>
+
+    <!-- PHONE -->
+
+    <a
+      href="tel:+917249034269"
+      class="contact-card"
+    >
+
+      <i class="fas fa-phone"></i>
+
+      <div>
+
+        <h3>Contact</h3>
+
+        <p>
+          +91 7249034269 • India
+        </p>
+
+      </div>
+
+    </a>
+
+    <!-- LINKEDIN -->
+
+    <a
+      href="https://linkedin.com/in/shrinath-khot"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="contact-card"
+    >
+
+      <i class="fab fa-linkedin"></i>
+
+      <div>
+
+        <h3>LinkedIn</h3>
+
+        <p>
+          linkedin.com/in/shrinath-khot
+        </p>
+
+      </div>
+
+    </a>
+
+    <!-- GITHUB -->
+
+    <a
+      href="https://github.com/Shrinathkhot"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="contact-card"
+    >
+
+      <i class="fab fa-github"></i>
+
+      <div>
+
+        <h3>GitHub</h3>
+
+        <p>
+          github.com/Shrinathkhot
+        </p>
+
+      </div>
+
+    </a>
+
+  </div>
+
+</section>
+
+  <!-- FOOTER -->
+
+  <footer>
+    © 2026 Shrinath Khot • AI & Analytics Portfolio
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
